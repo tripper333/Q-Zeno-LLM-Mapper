@@ -115,7 +115,3 @@ if query_log:
 
 """
 
-with open("/mnt/data/cleaned_app.py", "w") as f:
-    f.write(cleaned_app_py_code)
-
-"✅ `cleaned_app.py` ready with multi-query logs, toggle channels, and GPT-based interpretation. Ready to test in Codespaces!"
