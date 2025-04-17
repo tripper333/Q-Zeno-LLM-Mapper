@@ -1,6 +1,3 @@
-# Begin cleaning and preparing an updated version of app.py with multi-query support, UI fixes, and GPT-based interpretive feedback
-
-cleaned_app_py_code = """
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
@@ -17,7 +14,7 @@ st.set_page_config(
 )
 
 # --- Style ---
-st.markdown(\"""
+st.markdown("""
 <style>
     body {
         background-color: #0f1117;
@@ -30,7 +27,7 @@ st.markdown(\"""
         background-color: #1f2937;
     }
 </style>
-\""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 # --- OpenAI Client Setup ---
 client = OpenAI()
@@ -50,13 +47,13 @@ with st.sidebar:
     show_entropy = st.checkbox("Overlay Entropy Channel", value=True)
     show_var = st.checkbox("Overlay Variance Channel", value=True)
 
-    st.markdown(\"""
+    st.markdown("""
     ### 🧠 Metric Guide  
     - **μ (Zeno)**: Alignment between expectation & outcome  
     - **Entropy**: Complexity or uncertainty in phrasing  
     - **Variance**: Spread in latent space  
     - *(Cosine Drift & FFT coming soon)*
-    \""")
+    """)
     st.info("Each query generates a 3D coherence surface showing semantic topology.")
 
 # --- Main App Execution ---
@@ -80,7 +77,7 @@ if st.button("▶️ Run Query") and query_input:
     fig = plt.figure(figsize=(8, 6))
     ax = fig.add_subplot(111, projection="3d")
     surf = ax.plot_surface(X, Y, Z, cmap="plasma", edgecolor="k", alpha=0.9)
-    ax.set_title(f"Zeno Surface Field\\n{query_input}\\nμ={mu:.4f}, H={entropy:.3f}, Var={var:.4f}")
+    ax.set_title(f"Zeno Surface Field\n{query_input}\nμ={mu:.4f}, H={entropy:.3f}, Var={var:.4f}")
     ax.set_xlabel("Latent X")
     ax.set_ylabel("Latent Y")
     ax.set_zlabel("Zeno Field")
@@ -112,6 +109,3 @@ if query_log:
     })
     st.dataframe(df)
     st.line_chart(df.set_index("Query"))
-
-"""
-
