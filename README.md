@@ -1,3 +1,21 @@
+# 🧠 Zenome: Bridging expectation and outcome through coherence-driven topology.
+
+**Zenome** is part of a series of expierments where we are testing wew kinds of "feedback loops".  This expierment is designed to test different types of tools to close the gap between what users say and what they truly want. It transforms user queries into dynamic topological fields that evolve based on coherence, complexity, and pattern memory.
+
+Inspired by Zeno's Paradox, where motion seems impossible through infinite refinements, **Zenome** resolves the human-AI paradox of intent:  
+> "We can’t deliver the right answer until you ask the right question, but you can’t ask the right question until you see the right answer."
+
+This system introduces **μ Control**, a signal of semantic alignment.  
+Each query projects a dynamic field shaped by:
+
+- 🌀 Zeno μ (semantic coherence)
+- 🔣 Token entropy (linguistic unpredictability)
+- 🎲 Embedding variance (conceptual spread)
+
+Over time, these fields form a **semantic memory landscape** — a Zenome — that helps AI systems anticipate, reflect, and optimize outcomes. 
+
+Whether used for natural language → SQL loops, strategy development, or query refinement, this system becomes a **mirror of your intent** — and a blueprint for its evolution.
+
 # Zeno the Dynamic Coherence Controller
 
 This app visualizes semantic queries as dynamic energy fields using an adaptive DGFT controller. You can toggle semantic metrics like Zeno μ (coherence), token entropy, and embedding variance to understand their impact on topology.
@@ -5,7 +23,10 @@ This app visualizes semantic queries as dynamic energy fields using an adaptive 
 
 This is a mock-up of the Streamlit interface for the Adaptive DGFT Zeno Controller with metric toggles and live surface visualization:
 
-![App UI]([https://github.com/your-username/your-repo-name/blob/main/A_Streamlit_app_interface_titled...png?raw=true](https://github.com/tripper333/Q-Zeno-LLM-Mapper/blob/main/Zeno%20Choherence%20Controller.png](https://github.com/tripper333/Q-Zeno-LLM-Mapper/blob/main/Zeno%20Choherence%20Controller.png?raw=true))
+![App UI](https://github.com/tripper333/Q-Zeno-LLM-Mapper/blob/main/Zeno%20Coherence%20Controller.png?raw=true)
+
+> *Bridging expectation and outcome through coherence-driven topology.*
+
 
 ## Features
 
