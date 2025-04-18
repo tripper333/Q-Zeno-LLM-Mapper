@@ -7,13 +7,14 @@ from mpl_toolkits.mplot3d import Axes3D
 from openai import OpenAI
 from utils import get_embedding, compute_mu, compute_variance, compute_token_entropy, generate_field
 
+# ✅ Set page config FIRST — before anything else!
 st.set_page_config(
     page_title="Zenome: Expectation-to-Outcome Mapper",
     layout="wide",
     page_icon="🧠"
 )
 
-# --- Style Overrides ---
+# --- Style Overrides (OK after page config) ---
 st.markdown("""
 <style>
     body {
