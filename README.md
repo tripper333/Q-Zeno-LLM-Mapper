@@ -1,6 +1,6 @@
 # 🧠 Zenome: Bridging expectation and outcome through coherence-driven topology.
 
-**Zenome** is part of a series of expierments where we are testing new kinds of "feedback loops".  This expierment is designed to test different types of tools to close the gap between what users say and what they truly want. It transforms user queries into dynamic topological fields that evolve based on coherence, complexity, and pattern memory.
+**Zenome** is a tool and series of expierments to test new kinds of "feedback loops".  This expierment is designed to test different types of tools to close the gap between what users say and what they truly want. It transforms user queries into dynamic topological fields that evolve based on coherence, complexity, and pattern memory.
 
 Inspired by Zeno's Paradox, where motion seems impossible through infinite refinements, **Zenome** resolves the human-AI paradox of intent:  
 > "We can’t deliver the right answer until you ask the right question, but you can’t ask the right question until you see the right answer."
@@ -95,7 +95,7 @@ Introducing **Zeno the Dynamic Coherence Controller** is an experimental tool th
 
 ### 🔁 ASC Loop Preview (Text-to-SQL)
 
-When enabled, the app shows an **Active Semantic Compilation (ASC)** sketch — a basic simulated SQL command based on your query:
+When enabled, the app shows an toy example sketch — a basic simulated SQL command based on your query:
 
 ```sql
 -- Example Output
