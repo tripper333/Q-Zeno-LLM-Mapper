@@ -130,8 +130,4 @@ if st.session_state.query_log:
     st.pyplot(fig2)
 """
 
-with open("/mnt/data/app.py", "w") as f:
-    f.write(app_py_code)
-
-"/mnt/data/app.py"
 
