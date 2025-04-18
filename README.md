@@ -1,6 +1,6 @@
 # 🧠 Zenome: Bridging expectation and outcome through coherence-driven topology.
 
-**Zenome** is a tool and series of expierments to test new kinds of "feedback loops".  This expierment is designed to test different types of tools to close the gap between what users say and what they truly want. It transforms user queries into dynamic topological fields that evolve based on coherence, complexity, and pattern memory.
+**Zenome** is a tool and series of expierments to test new kinds of "feedback loops".  This expierment is designed to provide insight into how best to optimize the systems and methods to close the gap between what users say and what they truly want. It transforms user queries into dynamic topological fields that evolve based on coherence, complexity, and pattern memory.
 
 Inspired by Zeno's Paradox, where motion seems impossible through infinite refinements, **Zenome** resolves the human-AI paradox of intent:  
 > "We can’t deliver the right answer until you ask the right question, but you can’t ask the right question until you see the right answer."
